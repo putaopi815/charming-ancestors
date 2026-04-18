@@ -1,0 +1,470 @@
+{
+  "brand": {
+    "name": "Charming Ancestors",
+    "name_short": "Ancestors",
+    "tagline": "Push a door open and meet someone very old"
+  },
+  "nav": {
+    "home": "Dynasty Map",
+    "cards": "My Cards",
+    "back": "Back",
+    "lang_zh": "中",
+    "lang_en": "EN",
+    "lang_switch_label": "Switch language",
+    "lang_switch_label_short": "Lang",
+    "theme_light": "Light",
+    "theme_dark": "Dark",
+    "theme_system": "Follow system",
+    "theme_switch_label": "Switch theme",
+    "theme_switch_label_short": "Theme"
+  },
+  "home": {
+    "welcome_first": {
+      "title": "First time here?",
+      "body": "Ten ancestors are waiting for you. Tap the Xia to push open the first door.",
+      "body_mobile": "Ten ancestors are waiting. Tap Xia to push the first door open.",
+      "cta": "Start with the Xia"
+    },
+    "welcome_return": {
+      "title": "Welcome back",
+      "body": "Last time you made it to {dynasty}."
+    },
+    "progress_summary": "{cleared} of 10 cleared · {perfect} of 10 all-correct",
+    "wrong_entry": "Take another look ({count})",
+    "cards_hint": "Unlocked cards show up here",
+    "cards_hint_empty": "Clear a level and you'll get a card",
+    "section_dynasties": "Ten Dynasties"
+  },
+  "dynasty": {
+    "xia": { "name": "Xia", "era": "Legends & Beginnings" },
+    "shang": { "name": "Shang", "era": "Oracles & Bronze" },
+    "zhou": { "name": "Zhou", "era": "Rites & Fiefs" },
+    "qin": { "name": "Qin", "era": "Unity & the Wall" },
+    "han": { "name": "Han", "era": "Silk Road & Paper" },
+    "sanguo": { "name": "Three Kingdoms", "era": "Heroes & Schemes" },
+    "suitang": { "name": "Sui-Tang", "era": "Golden Age & Poetry" },
+    "song": { "name": "Song", "era": "Movable Type & Markets" },
+    "yuan": { "name": "Yuan", "era": "Wide Lands & Roads" },
+    "mingqing": { "name": "Ming-Qing", "era": "Voyages & Palaces" },
+    "era_mobile": "",
+    "status": {
+      "locked": "Not yet unlocked",
+      "locked_hint": "Clear {prev} to unlock",
+      "unlocked": "Start",
+      "in_progress": "Continue ({current}/5)",
+      "cleared": "{score}/5",
+      "perfect": "All correct ★",
+      "coming_soon": "Coming soon"
+    },
+    "cta": {
+      "start": "Start",
+      "continue": "Continue",
+      "replay": "Play again"
+    },
+    "replay_confirm": {
+      "title": "Play this one again?",
+      "body": "Your best score stays safe. You're just giving it another go.",
+      "ok": "Sure, let's go",
+      "cancel": "Not now"
+    }
+  },
+  "quiz": {
+    "progress": "Question {current} of {total}",
+    "option_prefix": "",
+    "option_selected_label": "Selected",
+    "feedback_correct": {
+      "title": "Got it!",
+      "body": "You found it."
+    },
+    "feedback_wrong": {
+      "title": "Not quite",
+      "body": "Almost. Take a look below."
+    },
+    "feedback": {
+      "explanation_label": "Why",
+      "correct_answer_label": "The answer is"
+    },
+    "cta": {
+      "next": "Next",
+      "settle": "See how you did"
+    },
+    "confirm_exit": {
+      "title": "Heading out?",
+      "body": "You can go home first and come back to this later.",
+      "continue": "Keep answering",
+      "keep": "Home (I'll come back)",
+      "discard": "Drop this level"
+    },
+    "load_error": {
+      "title": "The questions didn't load",
+      "body": "The network took a nap.",
+      "retry": "Try again",
+      "give_up": "Go home"
+    },
+    "questions": {
+      "xia": {
+        "0": {
+          "question": "In the old stories, who spent 13 years taming floods and walked past his own home three times without going in?",
+          "option_0": "Huang Di (the Yellow Emperor)",
+          "option_1": "Yu the Great",
+          "option_2": "Hou Yi",
+          "option_3": "Shen Nong",
+          "explanation": "Yu the Great's flood-taming story is long, but the part everyone remembers is how he walked past his own door three times and never stopped to go in. He missed home — but if the waters weren't tamed, nobody else had one either."
+        },
+        "1": {
+          "question": "The Xia is believed to be the first of what in Chinese history?",
+          "option_0": "The first state — the kind with a king on top",
+          "option_1": "The first tribe",
+          "option_2": "The first city",
+          "option_3": "The first army",
+          "explanation": "Before the Xia, people lived in scattered tribes. After the Xia, the throne started passing from father to son. That was a huge switch — from picking a chief together to one family running things for generations."
+        },
+        "2": {
+          "question": "Yu's son was named Qi, and he did one thing that got all the land talking. What was it?",
+          "option_0": "He invented the cart",
+          "option_1": "He inherited his father's throne",
+          "option_2": "He moved the capital to the seaside",
+          "option_3": "He defeated the Shang",
+          "explanation": "Before Qi, chiefs were chosen by the people. Qi simply sat down in his dad's seat — and from that moment on, rulers were picked by bloodline instead of by vote. That's the biggest mark the Xia left on history."
+        },
+        "3": {
+          "question": "The word \"Xia\" in \"Xia Dynasty\" — does it have anything to do with \"summer\"?",
+          "option_0": "Yes, it literally means summer",
+          "option_1": "Not really — it just happens to be the same character",
+          "option_2": "It means \"big\" or \"grand\"",
+          "option_3": "It means \"the earliest\"",
+          "explanation": "In ancient Chinese, \"Xia\" carried the meaning of \"great\" or \"grand.\" Yu's descendants named their state \"Xia\" to say \"we are magnificent.\" It's written with the same character as the one for summer, but the meaning is different."
+        },
+        "4": {
+          "question": "There's one thing archaeologists are still arguing about when it comes to the Xia. What is it?",
+          "option_0": "Whether the Xia had writing",
+          "option_1": "Whether the Xia really existed at all",
+          "option_2": "Whether Xia kings were actually aliens",
+          "option_3": "Whether Xia people ate rice",
+          "explanation": "The Xia's story was handed down by mouth, and so far no artifact has been dug up with the word \"Xia\" on it. Some scholars are sure the Xia existed; others are still out there looking for proof. The mystery isn't solved yet."
+        }
+      },
+      "shang": {
+        "0": {
+          "question": "When Shang people wanted to ask the gods a question, what did they use to find the answer?",
+          "option_0": "Tea leaves",
+          "option_1": "Turtle shells and ox bones",
+          "option_2": "The positions of the stars",
+          "option_3": "Tossing coins",
+          "explanation": "Shang people carved their questions into turtle shells or ox bones, then held them over a fire. The cracks that appeared were read as the gods' reply. Those carved words are what we now call oracle bone script — the earliest Chinese writing."
+        },
+        "1": {
+          "question": "The Shang people were famously skilled at making one kind of metal object. What was it?",
+          "option_0": "Iron swords",
+          "option_1": "Bronze ding (three-legged cauldrons)",
+          "option_2": "Gold cups",
+          "option_3": "Silver chopsticks",
+          "explanation": "The Shang mixed copper with tin to make bronze — strong, heavy, and beautiful. Their most famous pieces are \"ding,\" huge three-legged cauldrons used in ceremonies and treated as symbols of royal power itself."
+        },
+        "2": {
+          "question": "The earliest Chinese characters we can still read today — where were they actually carved?",
+          "option_0": "On stone walls",
+          "option_1": "On bamboo strips",
+          "option_2": "On turtle shells and animal bones",
+          "option_3": "On paper",
+          "explanation": "Oracle bone script was carved into turtle shells and ox bones when Shang people used them to ask the gods questions. Buried for over 3,000 years, they were finally dug up — and people realized Chinese writing started way earlier than anyone had thought."
+        },
+        "3": {
+          "question": "Fu Hao was a very unusual person in the Shang. Who was she?",
+          "option_0": "A queen who led armies into battle herself",
+          "option_1": "A student famous for her beautiful handwriting",
+          "option_2": "A craftswoman who made bronze vessels",
+          "option_3": "A merchant selling tea",
+          "explanation": "Fu Hao was queen to King Wu Ding of Shang, but she didn't just sit quietly in the palace. She actually led armies into battle and ran important ceremonies. When archaeologists opened her tomb, they found weapons and bronzes everywhere — a very unusual queen indeed."
+        },
+        "4": {
+          "question": "How did the Shang eventually come to an end?",
+          "option_0": "A giant earthquake destroyed it",
+          "option_1": "The Zhou people defeated it",
+          "option_2": "It picked up and moved overseas",
+          "option_3": "A plague wiped it out",
+          "explanation": "The last Shang king, King Zhou (a different character from the later dynasty name), was said to be cruel. A tribe called \"Zhou\" in the west teamed up with others who were fed up with him, and together they defeated him. That's how the Zhou Dynasty got its start."
+        }
+      },
+      "zhou": {
+        "0": {
+          "question": "The Zhou kings handed out land to relatives and helpers to rule on their behalf. What was this system called?",
+          "option_0": "The Fengjian (fief) system",
+          "option_1": "An election system",
+          "option_2": "Drawing lots",
+          "option_3": "Winning a fight for it",
+          "explanation": "The Zhou king couldn't possibly manage such a huge stretch of land on his own, so he handed out parcels to relatives and loyal helpers and made them \"lords.\" These lords brought gifts every year and sent soldiers whenever the king needed them."
+        },
+        "1": {
+          "question": "The Zhou people cared a great deal about \"li.\" What did \"li\" actually mean?",
+          "option_0": "A kind of food",
+          "option_1": "The rules and rituals for how things should be done",
+          "option_2": "A way of saying hello",
+          "option_3": "A type of dance",
+          "explanation": "\"Li\" isn't a gift or a greeting — it means the rules for how things should be done. Who sits where, how to speak, how ceremonies are arranged. The Zhou believed that if everyone followed the rules, the world would stay peaceful."
+        },
+        "2": {
+          "question": "One Zhou king lit the warning beacons just to make his favorite lady smile. What happened after that?",
+          "option_0": "She smiled, and peace lasted forever after",
+          "option_1": "The lords rushed over for nothing, and later, when real enemies came, no one showed up",
+          "option_2": "The beacons somehow brought a huge rainstorm",
+          "option_3": "The lady ran away",
+          "explanation": "This is the famous \"Beacon Fires\" story. King You of Zhou tricked his lords once, and they were furious after rushing all the way over for nothing. Later, when real enemies came, he lit the beacons again — and no one showed up. That's how the Western Zhou ended."
+        },
+        "3": {
+          "question": "The two characters for \"China\" (Zhongguo) were first found on a Zhou-era bronze piece. Which one is it?",
+          "option_0": "Mao Gong Ding",
+          "option_1": "He Zun",
+          "option_2": "Simuwu Ding",
+          "option_3": "Sword of Goujian",
+          "explanation": "\"He Zun\" is a Western Zhou bronze vessel. Inscribed on the inside are the words \"zhai zi zhong guo\" — \"I live in the central lands.\" That's the very first time \"Zhongguo\" (China) appears anywhere in writing, over 3,000 years ago."
+        },
+        "4": {
+          "question": "Big thinkers like Confucius and Mencius — which period did they actually live in?",
+          "option_0": "Near the end of the Shang",
+          "option_1": "The second half of the Zhou (the Spring-Autumn and Warring States era)",
+          "option_2": "After the Qin had unified China",
+          "option_3": "The Tang Dynasty",
+          "explanation": "In the late Zhou, the land was chaotic — lords kept fighting each other. Because everything was such a mess, people started asking: \"How should humans live? How should a country be run?\" Confucius, Mencius, and Laozi all lived in this era. It was later called the \"Hundred Schools of Thought.\""
+        }
+      },
+      "qin": {
+        "0": {
+          "question": "Emperor Qin Shi Huang unified China for the first time. What did he do to make the whole country feel like \"one place\"?",
+          "option_0": "He made everyone wear the same clothes",
+          "option_1": "He standardized the writing and the measurements",
+          "option_2": "He made everyone eat the same kinds of food",
+          "option_3": "He gave everyone the same name",
+          "explanation": "Before the Qin, every region had its own way of writing, its own weights, its own rulers for measuring length. Qin Shi Huang made everyone use the same script, the same scales, the same measuring rods. That's when \"one China\" really started to feel like one place."
+        }
+      },
+      "han": {
+        "0": {
+          "question": "The Han had a long road running westward, with camels carrying silk for thousands of miles. What was it called?",
+          "option_0": "The Silk Road",
+          "option_1": "The Gold Road",
+          "option_2": "The Tea-Horse Road",
+          "option_3": "The Grand Canal",
+          "explanation": "The Silk Road wasn't really a single road — it was a web of paths that traders wore into the land with their own feet. Camels carried Chinese silk and porcelain westward, then hauled back grapes, carrots, and spices. That's how East and West first got to know each other."
+        }
+      },
+      "sanguo": {
+        "0": {
+          "question": "In the Three Kingdoms era, one man was famous for both fighting wars and writing beautiful poems. Who was he?",
+          "option_0": "Liu Bei",
+          "option_1": "Cao Cao",
+          "option_2": "Sun Quan",
+          "option_3": "Zhuge Liang",
+          "explanation": "In the stories, Cao Cao is often painted as the villain — but the real Cao Cao was genuinely impressive. He fought battles, ran a state, and wrote beautiful poems as well. The famous line \"An old warhorse in its stall still dreams of a thousand miles\" — that one's his."
+        }
+      },
+      "suitang": {
+        "0": {
+          "question": "The Tang's most famous poet loved his wine and was nicknamed the \"Immortal of Poetry.\" Who was he?",
+          "option_0": "Du Fu",
+          "option_1": "Bai Juyi",
+          "option_2": "Li Bai",
+          "option_3": "Wang Wei",
+          "explanation": "Li Bai's poems are bold and dreamy, like mountains and flowing rivers at once. He drank while he wrote, and the words flowed so freely that no one could match him. People called him the \"Immortal of Poetry\" — a poet who wrote like a god."
+        }
+      },
+      "song": {
+        "0": {
+          "question": "In the Song Dynasty, a man named Bi Sheng invented a brand-new way of printing. What was it?",
+          "option_0": "Movable-type printing",
+          "option_1": "3D printing",
+          "option_2": "Hand copying",
+          "option_3": "Stamp printing with seals",
+          "explanation": "Before Bi Sheng, each page had to be carved onto one big wooden block. He came up with a clever idea — make each character its own little piece, so you can mix and match them for a brand new book. That's movable type. Europe didn't get it for another 400 years."
+        }
+      },
+      "yuan": {
+        "0": {
+          "question": "During the Yuan, an Italian traveler came all the way to China and later wrote a book about how amazing it was. Who was he?",
+          "option_0": "Columbus",
+          "option_1": "Marco Polo",
+          "option_2": "Leonardo da Vinci",
+          "option_3": "Newton",
+          "explanation": "Marco Polo traveled all the way from Italy, across mountains and deserts, to reach Yuan China. He stayed for years, then went home and wrote a book that made China sound like a fairytale land. Every European who read it wanted to go see it too."
+        }
+      },
+      "mingqing": {
+        "0": {
+          "question": "A great Ming navigator led hundreds of ships on seven voyages to the \"Western Seas.\" Who was he?",
+          "option_0": "Zheng He",
+          "option_1": "Qi Jiguang",
+          "option_2": "Xu Xiake",
+          "option_3": "Li Shizhen",
+          "explanation": "Zheng He's fleet was much bigger than Columbus's voyages that came later. They sailed to Southeast Asia, India, and even all the way to Africa. What they brought back wasn't gold or silver — it was friendships, gifts exchanged, and trade deals made."
+        }
+      }
+    }
+  },
+  "result": {
+    "banner": {
+      "perfect": "All correct!",
+      "cleared": "Level cleared",
+      "cleared_partial": "You made it through"
+    },
+    "score": "{score} / 5",
+    "card_reveal": {
+      "label": "You unlocked a new card",
+      "again": "You already have this card",
+      "tap_hint": "Tap to take a look"
+    },
+    "badge_reveal": {
+      "label": "You got a badge",
+      "again": "You already have this badge"
+    },
+    "wrong_entry": "See where it was almost right",
+    "cta": {
+      "next_dynasty": "Enter {dynasty}",
+      "home": "Back to the Dynasty Map",
+      "replay": "Play this one again",
+      "more": "More"
+    },
+    "all_done": {
+      "title": "You've met all ten",
+      "body": "From Xia all the way to Ming-Qing. Want to see someone again? The map is waiting.",
+      "cta": "Back to the Dynasty Map"
+    }
+  },
+  "mid_quiz": {
+    "title": "You left one unfinished",
+    "body": "In {dynasty}, you stopped on question {current}.",
+    "cta": {
+      "continue": "Keep going",
+      "restart": "Start over",
+      "discard": "Drop it, go home"
+    }
+  },
+  "card": {
+    "category": {
+      "person": "Person",
+      "object": "Object",
+      "event": "Event"
+    },
+    "from_dynasty": "From {dynasty}",
+    "close": "Close",
+    "story": {
+      "xia": {
+        "name": "Yu the Great",
+        "type": "Person",
+        "story": "Yu's father spent years trying to block the floods, but never succeeded. Yu tried something different — instead of blocking water, he dug channels to let it flow away. He walked along every river for 13 years and didn't go home once. People say he passed his own door three times without stopping. He missed his family. But if the waters weren't tamed, nobody had a home to go to."
+      },
+      "shang": {
+        "name": "Oracle Bones",
+        "type": "Object",
+        "story": "Over 3,000 years ago, Shang people carved their questions into turtle shells or ox bones, then held them over fire. The cracks that appeared were read as answers from the gods. These shells stayed buried for centuries. When they were finally dug up, scholars realized something amazing — Chinese writing, as we know it, started right here, on these cracked pieces of bone."
+      },
+      "zhou": {
+        "name": "The Lit Beacons",
+        "type": "Event",
+        "story": "King You of Zhou loved a lady named Bao Si, but she never smiled. To make her laugh, the king lit the warning beacons. Lords from everywhere rushed over, only to find there was no enemy. Bao Si finally smiled. But when real enemies came later, the king lit the beacons again. This time, no one came. The kingdom fell not long after."
+      },
+      "qin": {
+        "name": "Qin Shi Huang",
+        "type": "Person",
+        "story": "China's first emperor. He made everyone use the same writing, the same scales, the same coins — and built the Great Wall on top of that. A whole country, stitched together by one stubborn person."
+      },
+      "han": {
+        "name": "Han-era Paper",
+        "type": "Object",
+        "story": "A man named Cai Lun found a better way to make paper — thin, light, and easy to write on. After that, nobody had to haul heavy bamboo strips around just to jot a few words down."
+      },
+      "sanguo": {
+        "name": "Borrowing Arrows with Straw Boats",
+        "type": "Event",
+        "story": "Zhuge Liang needed 100,000 arrows and had almost no time. So he sent out straw-stuffed boats in the fog and let the enemy shoot arrows straight into them. One clever night, and the arrows were his."
+      },
+      "suitang": {
+        "name": "Li Bai",
+        "type": "Person",
+        "story": "The Tang's \"Immortal of Poetry.\" He loved his wine, and his lines about mountains feel like the mountains themselves are flying. No one else ever wrote quite like him."
+      },
+      "song": {
+        "name": "Movable Type",
+        "type": "Object",
+        "story": "Bi Sheng's invention. Every character was its own tiny piece, so you could mix and match them to print a brand new book. Europe didn't figure this out for another 400 years."
+      },
+      "yuan": {
+        "name": "Marco Polo in China",
+        "type": "Event",
+        "story": "An Italian traveler walked all the way into the Yuan court. When he finally went home, he wrote a book that made China sound like a fairytale — and every European who read it wanted to see it for themselves."
+      },
+      "mingqing": {
+        "name": "Zheng He's Treasure Ships",
+        "type": "Object",
+        "story": "The Ming sent out a massive fleet seven times, sailing as far as Africa. What they brought back wasn't gold or silver — it was friendships, gifts exchanged, and trade deals made along the way."
+      }
+    },
+    "badge": {
+      "xia": { "name": "Flood Tamer", "story": "Patient like Yu the Great." },
+      "shang": { "name": "Oracle Mark", "story": "You read the oldest words." },
+      "zhou": { "name": "Rite & Music", "story": "You see why rules matter." },
+      "qin": { "name": "Unifier", "story": "You made scattered pieces into a whole." },
+      "han": { "name": "Silk Path", "story": "You walked the longest road." },
+      "sanguo": { "name": "Clever Mind", "story": "You think like Zhuge Liang." },
+      "suitang": { "name": "Poet's Heart", "story": "Poetry lives in you." },
+      "song": { "name": "Type Mark", "story": "You pieced a new story together." },
+      "yuan": { "name": "Far Traveler", "story": "Farther than Marco Polo." },
+      "mingqing": { "name": "Voyager", "story": "You saw the sea with Zheng He." }
+    }
+  },
+  "cards_page": {
+    "title": "My Cards",
+    "progress": "{unlocked} of 10 unlocked",
+    "locked_hint": "Clear the {dynasty} to unlock",
+    "empty": {
+      "title": "The album is still empty",
+      "body": "Head to the Dynasty Map and clear your first level to get your first card.",
+      "cta": "Go to the Dynasty Map"
+    }
+  },
+  "wrong": {
+    "title": "Take another look",
+    "subtitle": "Not a test, just a look",
+    "filter": {
+      "all": "All",
+      "by_dynasty": "By dynasty"
+    },
+    "item": {
+      "your_answer": "You picked:",
+      "correct_answer": "The answer:",
+      "explanation": "Why:"
+    },
+    "empty": {
+      "title": "Nice work",
+      "body": "Nothing to look at right now."
+    }
+  },
+  "empty": {
+    "generic": "Nothing here yet"
+  },
+  "error": {
+    "not_found": {
+      "title": "You took a wrong turn",
+      "body": "This page isn't in the ten dynasties.",
+      "cta": "Go home"
+    },
+    "dynasty_not_found": "Can't find this dynasty",
+    "dynasty_locked": "Clear the earlier dynasties first",
+    "card_locked": "This card isn't unlocked yet",
+    "storage_full": "Your progress might not save",
+    "storage_reset": "Your data started fresh",
+    "storage_unavailable": "Progress won't save in private mode"
+  },
+  "count": {
+    "questions": "{count, plural, one {# question} other {# questions}}",
+    "cards": "{count, plural, one {# card} other {# cards}}",
+    "wrong": "{count, plural, one {# question} other {# questions}}",
+    "dynasties": "{count, plural, one {# level} other {# levels}}"
+  },
+  "a11y": {
+    "loading": "Loading",
+    "close_modal": "Close dialog",
+    "option_selected": "Selected",
+    "option_correct": "Correct answer",
+    "option_wrong": "Your pick"
+  }
+}

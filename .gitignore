@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+.cache/
+.vscode/
+.idea/
+*.log
+
+# 本地大体积素材 / 截图审计
+screenshots-btn-audit/
+/tmp/
+
+# Pencil 本地文件
+06-pencil/*.bak

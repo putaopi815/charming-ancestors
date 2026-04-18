@@ -1,0 +1,74 @@
+{
+  "xia": {
+    "count": 5,
+    "questions": [
+      { "id": "xia-q01", "answer_index": 1, "difficulty": 1 },
+      { "id": "xia-q02", "answer_index": 0, "difficulty": 1 },
+      { "id": "xia-q03", "answer_index": 1, "difficulty": 2 },
+      { "id": "xia-q04", "answer_index": 2, "difficulty": 2 },
+      { "id": "xia-q05", "answer_index": 1, "difficulty": 3 }
+    ]
+  },
+  "shang": {
+    "count": 5,
+    "questions": [
+      { "id": "shang-q01", "answer_index": 1, "difficulty": 1 },
+      { "id": "shang-q02", "answer_index": 1, "difficulty": 1 },
+      { "id": "shang-q03", "answer_index": 2, "difficulty": 2 },
+      { "id": "shang-q04", "answer_index": 0, "difficulty": 2 },
+      { "id": "shang-q05", "answer_index": 1, "difficulty": 3 }
+    ]
+  },
+  "zhou": {
+    "count": 5,
+    "questions": [
+      { "id": "zhou-q01", "answer_index": 0, "difficulty": 1 },
+      { "id": "zhou-q02", "answer_index": 1, "difficulty": 1 },
+      { "id": "zhou-q03", "answer_index": 1, "difficulty": 2 },
+      { "id": "zhou-q04", "answer_index": 1, "difficulty": 2 },
+      { "id": "zhou-q05", "answer_index": 1, "difficulty": 3 }
+    ]
+  },
+  "qin": {
+    "count": 1,
+    "questions": [
+      { "id": "qin-q01", "answer_index": 1, "difficulty": 1 }
+    ]
+  },
+  "han": {
+    "count": 1,
+    "questions": [
+      { "id": "han-q01", "answer_index": 0, "difficulty": 1 }
+    ]
+  },
+  "sanguo": {
+    "count": 1,
+    "questions": [
+      { "id": "sanguo-q01", "answer_index": 1, "difficulty": 1 }
+    ]
+  },
+  "suitang": {
+    "count": 1,
+    "questions": [
+      { "id": "suitang-q01", "answer_index": 2, "difficulty": 1 }
+    ]
+  },
+  "song": {
+    "count": 1,
+    "questions": [
+      { "id": "song-q01", "answer_index": 0, "difficulty": 1 }
+    ]
+  },
+  "yuan": {
+    "count": 1,
+    "questions": [
+      { "id": "yuan-q01", "answer_index": 1, "difficulty": 1 }
+    ]
+  },
+  "mingqing": {
+    "count": 1,
+    "questions": [
+      { "id": "mingqing-q01", "answer_index": 0, "difficulty": 1 }
+    ]
+  }
+}
