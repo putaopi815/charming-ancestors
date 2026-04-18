@@ -582,6 +582,9 @@ a {
   min-block-size: 140px;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .welcome::before { content: none; }
 .welcome::after  { content: none; }
